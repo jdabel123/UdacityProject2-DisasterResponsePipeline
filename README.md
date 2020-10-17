@@ -18,23 +18,23 @@ The project involves 3 processes:
 
 You will need to have Python 3.6 installed onto your computer and also have the following libraries installed.
 
-- [Pandas]()
-- [Scikit-learn]()
-- [Numpy]()
-- [NLTK]()
-- [SQAlchemy]()
-- [Pickle]()
-- [Flask]()
-- [Plotly]()
+- [Pandas](https://pandas.pydata.org/)
+- [Scikit-learn](https://scikit-learn.org/stable/index.html)
+- [Numpy](https://numpy.org/)
+- [NLTK](https://www.nltk.org/)
+- [SQAlchemy](https://www.sqlalchemy.org/)
+- [Pickle](https://docs.python.org/3/library/pickle.html)
+- [Flask](https://flask.palletsprojects.com/en/1.1.x/)
+- [Plotly](https://plotly.com/)
 
 
-#Installing
+# Installing
 
 You can clone this repository:
 
 	`git clone https://github.com/jdabel123/UdacityProject2-DisasterResponsePipeline`
 
-##Executing Program:
+## Executing Program:
 1 - You can run the following commands in the project's directory to set up the database, train model and save the model.
 
 2 - To run ETL pipeline to clean data and store the processed data in the database python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/disaster_response_db.db
@@ -43,7 +43,7 @@ You can clone this repository:
 
 5 - Go to http://0.0.0.0:3001/
 
-#Important Files
+# Important Files
 
 **data/process_data.py:** ETL pipeline used to extract data from `disaster_messages.csv` and `disaster_categories.csv` and
 						  save this data to a SQLite database `DisasterResponse.db`.
@@ -52,11 +52,11 @@ You can clone this repository:
 **run.py:** Program to launch the flask web app.
 
 
-#Authors
+# Authors
 
 - John Abel - `johnabel1997@gmail.com`
 
-#Acknowledgements
+# Acknowledgements
 
 -`Figure Eight` for providing the labelled dataset to complete this project.
 
