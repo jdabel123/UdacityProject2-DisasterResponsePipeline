@@ -106,7 +106,25 @@ def index():
                     'title': "Genre"
                 }
             }
-        }
+        },
+        
+        {
+            'data': [
+                bar( x = classifiaction_labels,
+                     y = classification_results
+                   )
+            ],
+            'layout': {
+                'title': 'Results of message Classification',
+                'yaxis': {
+                    'title' : 'Result'
+                },
+                'xaxis': {
+                    'title' : "Genre Name"
+                } 
+            }
+        }  
+        
     ]
     
     # encode plotly graphs in JSON
